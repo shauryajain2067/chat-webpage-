@@ -1,0 +1,41 @@
+body{
+    background-color:blueviolet;
+}
+#h31{
+color:chocolate;
+}
+#h4_1{
+    color:darkgreen;
+}
+#label1{
+    color:rgb(9, 0, 139);
+}
+#login_button{
+    height:50px;
+    width:80px;
+    color:white;
+    
+}
+#login_img{
+    height:60px;
+    width:60px;
+    border-style:double;
+}
+#head{
+    color:greenyellow;
+    font-weight:bold;
+    font-style:italic;
+}
+.login_div{
+    float:none;
+    background-color:lightcyan;
+    border-radius:15px;
+}
+#img2{
+    height:60px;
+    width:60px;
+}
+#user_name{
+    width:70%;
+    height:50%;
+}

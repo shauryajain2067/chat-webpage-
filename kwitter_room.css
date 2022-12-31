@@ -1,0 +1,11 @@
+#img2{
+    height:60px;
+    width:60px;
+}
+body{
+    background-color: chartreuse;
+}
+#logout_button,#addRoom{
+    background-color:cyan;
+    color:darkgreen;
+}

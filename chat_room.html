@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHAT WEBPAGE</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter_room.css">
+<script src="chat_room.js"></script>
+</head>
+<body>
+    
+    <center>
+        <button id="logout_button" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">LOGOUT</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="header">	
+			Kwitter	
+			<sup>
+				<img id="img2" src="twitter.jpg">
+			</sup>
+		</h1>
+        <h3 id="user_name" class="color_white"></h3>
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label>
+<input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+<br>
+<br>
+<button id="addRoom" onclick="addRoom()">ADD ROOM</button>
+<br>
+<br>
+<div id="output"></div>
+</div>
+    </center>
+</body>
+</html>
